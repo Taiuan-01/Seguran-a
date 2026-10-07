@@ -1,0 +1,223 @@
+# 🔐 Fundamentos de Segurança da Informação
+
+Esta seção reúne os principais conceitos necessários para construir uma base sólida em **Segurança da Informação**.
+
+O objetivo é compreender os fundamentos utilizados para **proteger informações, sistemas, redes e usuários**, identificando riscos e aplicando medidas de segurança.
+
+---
+
+## 🛡️ O que é Segurança da Informação?
+
+A **Segurança da Informação** é o conjunto de práticas, processos e tecnologias utilizados para proteger informações contra acessos não autorizados, alterações indevidas, perdas, interrupções e outras ameaças.
+
+A segurança busca proteger não apenas os dados, mas também os sistemas, dispositivos, redes, aplicações e pessoas que fazem parte de um ambiente tecnológico.
+
+---
+
+# 🔺 Tríade CIA
+
+Um dos principais fundamentos da Segurança da Informação é a **Tríade CIA**, formada por:
+
+### 🔒 Confidencialidade
+
+Garante que as informações sejam acessadas somente por pessoas ou sistemas autorizados.
+
+**Exemplos:**
+- Controle de acesso;
+- Senhas;
+- Criptografia;
+- Autenticação multifator (MFA).
+
+---
+
+### 🛡️ Integridade
+
+Garante que as informações permaneçam **corretas, completas e não sejam modificadas indevidamente**.
+
+**Exemplos:**
+- Hash;
+- Assinaturas digitais;
+- Controle de alterações;
+- Permissões de escrita.
+
+---
+
+### ⚡ Disponibilidade
+
+Garante que informações e sistemas estejam disponíveis quando forem necessários aos usuários autorizados.
+
+**Exemplos:**
+- Backup;
+- Redundância;
+- Alta disponibilidade;
+- Monitoramento;
+- Planos de recuperação.
+
+---
+
+## 📊 Resumo da Tríade CIA
+
+| Pilar | Objetivo | Exemplo |
+|---|---|---|
+| 🔒 Confidencialidade | Impedir acesso não autorizado | Criptografia |
+| 🛡️ Integridade | Evitar alterações indevidas | Hash |
+| ⚡ Disponibilidade | Manter sistemas acessíveis | Backup |
+
+---
+
+# 🎯 Ativos, ameaças e vulnerabilidades
+
+Para entender segurança, é importante diferenciar alguns conceitos.
+
+### 💻 Ativo
+
+É qualquer recurso que tenha valor para uma organização.
+
+Exemplos:
+
+- Dados;
+- Servidores;
+- Computadores;
+- Sistemas;
+- Bancos de dados;
+- Redes;
+- Aplicações;
+- Contas de usuários.
+
+### ⚠️ Ameaça
+
+É qualquer evento ou agente que possa causar impacto negativo em um ativo.
+
+Exemplos:
+
+- Malware;
+- Phishing;
+- Ransomware;
+- Ataques de força bruta;
+- Erros humanos;
+- Falhas de equipamentos.
+
+### 🐛 Vulnerabilidade
+
+É uma **fraqueza** que pode ser explorada por uma ameaça.
+
+Exemplos:
+
+- Software desatualizado;
+- Senhas fracas;
+- Configurações inseguras;
+- Falhas de código;
+- Permissões excessivas.
+
+---
+
+# 📉 Risco de Segurança
+
+O risco está relacionado à possibilidade de uma ameaça explorar uma vulnerabilidade e causar impacto em um ativo.
+
+Uma forma simplificada de compreender:
+
+**Ameaça + Vulnerabilidade + Impacto = Risco**
+
+Por isso, a Segurança da Informação busca identificar e reduzir riscos antes que eles resultem em incidentes.
+
+---
+
+# 👤 Autenticação x Autorização
+
+Esses dois conceitos são fundamentais para o controle de acesso.
+
+### 🔑 Autenticação
+
+Responde à pergunta:
+
+> **"Quem é você?"**
+
+Exemplos:
+
+- Usuário e senha;
+- Biometria;
+- Token;
+- Certificado digital;
+- MFA.
+
+### 🚪 Autorização
+
+Responde à pergunta:
+
+> **"O que você pode fazer?"**
+
+Exemplos:
+
+- Permissão para acessar determinada pasta;
+- Permissão para alterar arquivos;
+- Acesso administrativo;
+- Acesso somente leitura.
+
+### 💡 Exemplo
+
+Um funcionário pode se autenticar no sistema utilizando seu usuário e senha.
+
+Depois da autenticação, o sistema verifica suas permissões para determinar quais recursos ele pode acessar.
+
+---
+
+# 🔐 Princípio do Menor Privilégio
+
+O **Princípio do Menor Privilégio** determina que usuários, sistemas e aplicações devem possuir **somente as permissões necessárias para executar suas atividades**.
+
+### ❌ Exemplo inadequado
+
+Um usuário comum possui acesso de administrador em todos os computadores da empresa.
+
+### ✅ Exemplo adequado
+
+O usuário possui somente as permissões necessárias para executar suas funções.
+
+Isso ajuda a reduzir o impacto de:
+
+- Comprometimento de contas;
+- Malware;
+- Erros humanos;
+- Acessos indevidos;
+- Movimentação lateral dentro da rede.
+
+---
+
+# 🧠 Conceitos importantes
+
+| Conceito | Significado |
+|---|---|
+| 🔐 Confidencialidade | Informação acessível somente a autorizados |
+| 🛡️ Integridade | Informação protegida contra alterações indevidas |
+| ⚡ Disponibilidade | Informação e sistemas disponíveis quando necessários |
+| 💻 Ativo | Recurso que possui valor |
+| ⚠️ Ameaça | Algo capaz de causar dano |
+| 🐛 Vulnerabilidade | Fraqueza que pode ser explorada |
+| 📉 Risco | Possibilidade de um evento causar impacto |
+| 🔑 Autenticação | Verificação da identidade |
+| 🚪 Autorização | Definição das permissões |
+| 🔒 Criptografia | Proteção das informações por meio de técnicas criptográficas |
+| 👤 Menor privilégio | Conceder somente as permissões necessárias |
+
+---
+
+# 🎯 Objetivo dos estudos
+
+Os estudos desta seção buscam construir uma base para compreender conceitos mais avançados de Segurança da Informação, incluindo:
+
+- 🌐 Segurança de Redes;
+- 🖥️ Segurança de Sistemas Operacionais;
+- 🔐 Criptografia;
+- 🛡️ Hardening;
+- 👤 Controle de Acesso;
+- 🌎 Segurança Web;
+- 📊 Monitoramento;
+- 🚨 Resposta a Incidentes;
+- 🧪 Segurança em ambientes de laboratório.
+
+---
+
+> 💡 **Uma boa estratégia de segurança começa entendendo o que precisa ser protegido, quais são as ameaças e quais vulnerabilidades podem colocar os ativos em risco.**
+
+🔐 **Conhecimento é uma das primeiras camadas de defesa.**
